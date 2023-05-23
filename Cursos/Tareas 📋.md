@@ -1,0 +1,65 @@
+#tareas #cursos 
+# Personalizar linux como entorno Profesional
+
+- [x] Carpeta 1
+- [x] Carpeta 2
+- [x] Carpeta 3
+- [x] Carpeta 4
+- [x] Carpeta 5
+- [x] Carpeta 6
+- [x] Carpeta 7
+- [x] Carpeta 8
+- [x] Carpeta 9
+- [ ] Carpeta 10
+- [ ] Carpeta 11
+- [ ] Carpeta 12
+- [ ] Carpeta 13
+----
+# Introducción a Linux
+- [x] C1
+- [x] C2
+- [x] C3
+- [x] C4
+- [x] C6-7
+- [x] C8-9
+- [x] C10
+- [x] C11
+- [x] C12
+- [x] C13
+- [x] C14
+- [x] C15
+- [ ] **C16** (Repasar)
+- [x] **C17** (Repasar)
+- [x] C18
+- [ ] C19 (Irrelevante)
+- [x] C20
+- [x] C21
+- [ ] C22 (Configurar Kitty)
+- [ ] C23 (Editor Vim)
+- [x] C24
+- [x] C25
+- [x] C26
+- [x] C27
+- [x] C28
+- [x] C29
+- [x] C30
+- [x] C31
+- [x] C32
+- [x] C33
+- [x] C34
+- [x] C35
+- [x] C36
+- [x] C37
+- [x] C38
+- [x] C39
+- [x] C40
+- [x] C41
+- [x] C42
+- [x] C43
+- [ ] C44
+- [ ] C45
+- [ ] C46
+- [ ] C47
+- [ ] C48
+- [ ] C49
+- [ ] C50
