@@ -56,10 +56,18 @@
 - [x] C41
 - [x] C42
 - [x] C43
-- [ ] C44
-- [ ] C45
-- [ ] C46
-- [ ] C47
-- [ ] C48
-- [ ] C49
+- [x] C44
+- [x] C45
+- [x] C46
+- [x] C47
+- [x] C48
+- [ ] C49 (CUESTIONARIO)
 - [ ] C50
+- [ ] C51
+- [ ] C52,-56
+- [ ] C57
+-----
+
+### Remember
+-----
+**pspy**: proyecto de [github](https://github.com/DominicBreuker/pspy) para monitorizar los comandos del sistema 

@@ -35,5 +35,15 @@ También podemos redirigir el output de un comando a un archivo directamente esp
 ifconfig > resultado.txt
 ```
 
+### Ocultar el stderr(ERRORES) y el stdout(OUTPUT) al abrir un programa
+Si queremos abrir por ejemplo firefox pero no queremos que nos muestre ningún error y ningún mensaje relacionado al programa por consola pués podemos redirigir todo el flujo al /dev/null. Este directorio es como una papelera que elimina todo los datos que se introducen.
+```bash
+firefox &>/dev/null #El simbolo & engloba el stderr y el stdout para que ambos se redirigan al /dev/null
+
+firefox &>/dev/null & #Esto lo que hace es abrir el firefox pero como un proceso hijo, que cuelga de la terminal por lo que si cerramos también se cerraría el navegador.
+
+firefox &>/dev/null & disown #Para abrir firefox sin que cuelge de la terminal le ponemos al final un disown y ya si podrías cerrar la terminal.
+```
+
 -----
 Enlace a las [[Tareas 📋]], este tema se aborda desde la carpeta 3 - 4

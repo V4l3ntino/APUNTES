@@ -10,8 +10,13 @@ nc localhost 30000
 
 ### Ponerse en escucha por un puerto
 ```bash
-nc destino puerto < archivo.txt
+nc -nlvp 8080
 ```
+
+1. n: especificamos que no queremos que nos haga resolución DNS
+2. l: indicamos que vamos a ponernos en modo escucha
+3. v: es de verbose y sirve para que a medida que se está ejecutando nos muestre la información por consola
+4. p: sirve para indicarle un número de puerto local
 
 -----
 ### Relacionados

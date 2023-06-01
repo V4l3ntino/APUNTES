@@ -44,3 +44,7 @@ echo -e "\n ${yellowColour}[+]${endColour} ${blueColour}La dirección IP privada
 
 ```
 
+### Relacionado
+---
+Enlace a las [[Tareas 📋]], este se muestra en la carpeta 20 y relacionado con las carpeta 30-31
+- [[Filtrar y ordenar datos]]

@@ -6,9 +6,21 @@
 ```bash
 ifconfig | grep 192 #Muestra en el output las líneas que contengan 192
 ifconfig | grep -E "192|wlan0" #Muestra en el output las líneas que contengan 192 y wlan0
+ifconfig | grep -i "WLAN0" #Con el parámetro -i indicamos que sea insensible a mayúsculas y minúsculas.
 ifconfig | grep -v 192 #Quita en el output lo que ponga 192, esto quitará toda la línea donde se encuentre el dato 192.
 ifconfig | grep -vE "192|wlan0" #Quita en el output lo que ponga 192 y wlan0, esto quitará toda la línea donde se encuentre los datos wlan0 y 192.
 ```
+
+### Usar grep para filtrar solo el contenido que sigue un patrón
+Imagina que quieres filtrar solo las direcciones ips de un output, por ejemplo un escaneo de nmap
+```bash
+nmap -sn 192.168.0.0/24 | grep -oP '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
+```
+- **"-o"**: Esta opción indica a grep que muestre solo la parte de la línea que coincide con el patrón.
+    
+- **"-P"**: Habilita el uso de expresiones regulares Perl para definir el patrón de búsqueda.
+    
+- **'\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}'**: Es el patrón de expresión regular utilizado por grep para buscar y mostrar direcciones IP válidas. En este caso, se busca cualquier combinación de 1 a 3 dígitos seguidos de un punto, repetido cuatro veces.
 
 ### Ver el peso de un archivo 
 ```bash
@@ -79,4 +91,6 @@ sort data.txt # Ordena por ordena alfabético los datos, mostrando el output muc
 sort data.txt | uniq -u # Muestra la única cadena de texto que no se repita en el archivo.
 ```
 
-
+### Relacionado
+-----
+- Enlace a las [[Tareas 📋]], esto se muestra desde la carpeta 31-32

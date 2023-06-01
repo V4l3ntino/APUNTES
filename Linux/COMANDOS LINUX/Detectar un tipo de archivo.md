@@ -9,3 +9,7 @@ file archivo.txt
 ASCII text #Esto quiere decir que el archivo está en texto claro
 ```
 
+### Relacionado
+---
+Enlace a las [[Tareas 📋]],  esto se muestra en la carpeta 28.
+
