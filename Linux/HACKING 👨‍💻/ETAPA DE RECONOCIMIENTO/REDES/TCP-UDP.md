@@ -14,7 +14,7 @@ Ahora cada vez que el emisor envié un paquete de datos el receptor, este devolv
 > [[NMAP]] recurre de este proceso, el Three Way Handshake, para averiguar si un puerto está activo o cerrado, ya que sabiendo si el puerto está activo o cerrado podemos saber también el tipo de servicio que corre por detras. Cada puerto  se utiliza por un servicio en concreto, para el servicio ssh utiliza el puerto 22, para el FTP el puerto 20 y 21, para las páginas webs el puerto 80 y para las páginas webs seguras con certificado TLS el puerto 443. Sabiendo esto podemos enumerar todos los puertos que están activos y descubrir los servicios que corren detrás de esos puertos.
 
 ### Nmap el parámetro -sS
-Sabiendo esto podemos explicar ahora que es lo que hace el -sS (escaneo TCP SYN), nmap envía un paquete SYN al servidor y espera a que este le conteste con un paquete (SYN ACK) en caso de que esté abierto, si el servidor no tiene el puerto abierto entonces enviará un paquete **RST** (RESET||REICINIO), indicando que el puerto se encuentra cerrado y no está dispuesto a iniciar ninguna sesión. 
+Sabiendo esto podemos explicar ahora que es lo que hace el -sS (stealth scan), nmap envía un paquete SYN al servidor y espera a que este le conteste con un paquete (SYN ACK) en caso de que esté abierto, si el servidor no tiene el puerto abierto entonces enviará un paquete **RST** (RESET||REICINIO), indicando que el puerto se encuentra cerrado y no está dispuesto a iniciar ninguna sesión. 
 Si de lo contrario el servidor responde con un SYN ACK entonces el emisor entenderá que el puerto está abierto.
 En ese caso Nmap envía un paquete RST después de recibir el paquete SYN-ACK para limpiar la conexión sin establecer una conexión completa. Esto se hace por varias razones:
 
