@@ -18,7 +18,7 @@
 2. SEC3: RECONOCIMIENTO
 	1. - [x] Nmap y diferentes modos de escaneo
 	2. - [x] Nmap, técninas de evasión de firewalls
-	3. - [ ] Nmap, uso de scripts 
+	3. - [x] Nmap, uso de scripts 
 	4. - [x] Creación de tus propios scripts en Lua.
 	5.  - [ ] Altarnativas de enumaración de puertos utilizando descriptores de archivos
 	6.  - [x] Descubrimientos de equipos en la red local
@@ -29,6 +29,6 @@
 	11. - [x] Credenciales y brechas de seguridad
 	12. - [x] Identificación de tecnologías en una página web
 	13. - [x] Fuzzing y enumeración de archivos en un servidor web (P1)
-	14. - [x] Fuzzing y enumeración de archivos en un servidor web (P2)
+	14. - [x] Fuzzing y enumeración de archivos en un servidor web (P2) \[Introducción a Burpsuite]
 	15.  - [x]  Google dorks
 	16.  - [x]  Identificación y verificación externa de la versión del sistema operativo.

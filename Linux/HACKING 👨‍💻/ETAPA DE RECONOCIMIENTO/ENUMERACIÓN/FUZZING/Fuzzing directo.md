@@ -16,7 +16,9 @@ Es una herramienta que podemos encontrar en [github](https://github.com/OJ/gobus
 ```bash
 git clone https://github.com/OJ/gobuster.git
 cd gobuster
-go build .
+go build . --> Esto ejecuta la erramienta pero también si quieres reducir el peso del ejecutable puedes hacer:
+go build -ldflags "-s -w"
+upx gobuster
 ```
 
 ### Uso
@@ -39,6 +41,11 @@ Enumerar rutas
 ./gobuster dir -u https://google.com -w ~/diccionario.txt -t 200 -x html,php -s 200 -b ''
 ```
 
+- **-add-slash**: añade una barra al final de la ruta, esto sirve para que no se aplique un redirect (código de estado 301) a la ruta correcta con una barra al final. De esta manera nos reportará directamente por consola un código de estado 200 (exitoso).
+- **-b: (black list)** sirve para ocultar todos aquellos códigos de estado que no quieras ver.
+- **-x: (extensions)** sirve para probar diferentes extensiones al final de la ruta, por ejemplo:/test.html" y "/test.php
+- **-s: (show code)** sirve para mostrar únicamente el código de estado que te interese, en este caso indica que solo se muestre el código 200. (Para aplicar este parámetro se debe añadir también el parámetro -b pero añadiendo una cadena vacía para que no de error, ejemplo: -s 200 -b '' )
+
 ### Wfuzz
 ------
 Con wfuzz podemos fuzear lo que sea, no se aplica únicamente en rutas y subdominios, en este caso solo voy a mostrar como se hace para enumerar rutas y subdominios.
@@ -55,11 +62,32 @@ wfuzz -c --sw=20 -t 20 -w ~/diccionario.txt https://google.com/FUZZ
 wfuzz -c --sh=20 -t 20 -w ~/diccionario.txt https://google.com/FUZZ
 ```
 
+- -c: (**Colors**) representa los datos con colorines
+- -t: (**Threads**) igual que con gobuster es para indicar el número hilos
+- --hc: (**Hide Code**) sirve para ocultar en el output las líneas con un código de estado específico, en esto caso el 403 que corresponde al Forbidden.
+- --sc:(**Show Code**) este es lo contrario a --hc sirve para mostrar únicamente las líneas que contenga el código de estado especificado, en este caso el 200 que corresponde a exitoso.
+- --sl: (**Show Line**) mostrar únicamente aquellas respuestas que contenga un número determinado de líneas.
+- --hl:(**Hide Line**) ocultar todas las respuestas que contengan un número determinado de líneas
+- --sw:(**Show Word**)
+- --sh:(**Show Character**)
+- **-z**= podemos hacer una lista donde pongamos por ejemplo una serie de extensiones y luego meterlo con FUZZ en la posición que nos convenga en la url. Cuando estamos fuceando otra posición tenemos que declararlo como FUZ2Z, si es tercera posición FUZ3Z y así consecutívamente. 
+- -w: igual que con gobuster para indicar la **ruta del diccionario** 
+- **-H "Host: FUZZ.google.com"**: Define una **cabecera personalizada para el escaneo.** En este caso, se establece la cabecera `Host` con el valor "FUZZ.google.com". El término **"FUZZ"** se utiliza para representar la posición donde se insertarán los valores del diccionario.
+
+Enumerar subdominios
+```bash
+wfuzz -c --hc=403,404 -t 20 -w ~/diccionario.txt -H "Host: FUZZ.google.com" https://google.com
+wfuzz -c --sc=200 -t 20 -w ~/diccionario.txt -H "Host: FUZZ.google.com" https://google.com
+```
+
+
 ### Rangos
 Enumerar productos existentes desde un rango
 ```bash
 wfuzz -c -t 200 -z range,1-2000 'https://miwifi.com/shop/detail?product_id=FUZZ'
 ```
+
+- **-z**= También podemos establecer un rango numérico y en base a ese rango fucearlo para listar los ids de productos existentes.
 
 ### Ffuff
 ----
@@ -69,7 +97,8 @@ Instalación
 ```bash
 git clone https://github.com/ffuf/ffuf.git
 cd ffuf
-go build 
+go build -ldflags "-s -w"
+upx gobuster
 ```
 
 Uso, los parámetro son muy parecidos wfuzz
@@ -83,22 +112,8 @@ Filtrar por códigos de estado, --mc=200, (match code)
 
 > El término **"FUZZ"** se utiliza para representar la posición en la url donde se insertarán los valores del diccionario.
 
-Enumerar subdominios
-```bash
-wfuzz -c --hc=403,404 -t 20 -w ~/diccionario.txt -H "Host: FUZZ.google.com" https://google.com
-wfuzz -c --sc=200 -t 20 -w ~/diccionario.txt -H "Host: FUZZ.google.com" https://google.com
-```
 
-- -c: (**Colors**) representa los datos con colorines
-- -t: (**Threads**) igual que con gobuster es para indicar el número hilos
-- --hc: (**Hide Code**) sirve para ocultar en el output las líneas con un código de estado específico, en esto caso el 403 que corresponde al Forbidden.
-- --sc:(**Show Code**) este es lo contrario a --hc sirve para mostrar únicamente las líneas que contenga el código de estado especificado, en este caso el 200 que corresponde a exitoso.
-- --sl: (**Show Line**) mostrar únicamente aquellas respuestas que contenga un número determinado de líneas.
-- --hl:(**Hide Line**) ocultar todas las respuestas que contengan un número determinado de líneas
-- --sw:(**Show Word**)
-- --sh:(**Show Character**)
-- -w: igual que con gobuster para indicar la **ruta del diccionario** 
-- -H "Host: FUZZ.google.com": Define una **cabecera personalizada para el escaneo.** En este caso, se establece la cabecera `Host` con el valor "FUZZ.google.com". El término **"FUZZ"** se utiliza para representar la posición donde se insertarán los valores del diccionario.
+
 
 ----
 ### Relacionados
