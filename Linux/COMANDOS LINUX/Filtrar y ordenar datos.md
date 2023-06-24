@@ -6,6 +6,7 @@
 ```bash
 ifconfig | grep 192 #Muestra en el output las líneas que contengan 192
 ifconfig | grep -E "192|wlan0" #Muestra en el output las líneas que contengan 192 y wlan0
+ifconfig | grep -A5 "wlan0" #(after-context)Mustra 5 líneas por debajo de la primear línea encontrada con la palabra clave wlan0
 ifconfig | grep -i "WLAN0" #Con el parámetro -i indicamos que sea insensible a mayúsculas y minúsculas.
 ifconfig | grep -v 192 #Quita en el output lo que ponga 192, esto quitará toda la línea donde se encuentre el dato 192.
 ifconfig | grep -vE "192|wlan0" #Quita en el output lo que ponga 192 y wlan0, esto quitará toda la línea donde se encuentre los datos wlan0 y 192.

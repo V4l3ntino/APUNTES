@@ -15,3 +15,9 @@ Algunos ejemplos de Google Dorks pueden ser:
 Páginas webs para dorking
 - https://pentest-tools.com/information-gathering/google-hacking
 - https://exploit-db.com/ ---> searchexploit
+---
+### Relacionados
+- [[INTRODUCCIÓN AL HACKING📋]], carpeta 15
+- [[Formas de recolectar correos electrónicos]]
+- [[Reconocimiento por imágenes y base de datos]]
+- [[Fuzzing directo]], [[Fuzzing indirecto]]

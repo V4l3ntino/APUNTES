@@ -1,5 +1,5 @@
 ----
-- Tags: #Linux #Fuzzing #Recopilación 
+- Tags: #Fuzzing  
 -----
 
 Vamos a tirar de herramientas para la recolección de rutas en una url por fuerza bruta. A través de un diccionario iremos probando posibles rutas y recopilando aquellas que existen. También con los subdominios.
@@ -36,7 +36,7 @@ Enumerar rutas
 ```bash
 ./gobuster dir -u https://google.com -w ~/diccionario.txt -t 200
 ./gobuster dir -u https://google.com -w ~/diccionario.txt -t 200 --add-slash
-./gobuster dir -u https://google.com -w ~/diccionario.txt -t 200 -add-slash -b 403,404
+./gobuster dir -u https://google.com -w ~/diccionario.txt -t 200 --add-slash -b 403,404
 ./gobuster dir -u https://google.com -w ~/diccionario.txt -t 50 -b 403,404 -x html,php,txt
 ./gobuster dir -u https://google.com -w ~/diccionario.txt -t 200 -x html,php -s 200 -b ''
 ```
@@ -89,9 +89,9 @@ wfuzz -c -t 200 -z range,1-2000 'https://miwifi.com/shop/detail?product_id=FUZZ'
 
 - **-z**= También podemos establecer un rango numérico y en base a ese rango fucearlo para listar los ids de productos existentes.
 
-### Ffuff
+### Ffuf
 ----
-[Ffuff](https://github.com/ffuf/ffuf) una herramienta parecida a wfuzz pero escrita en go. Go trabaja muy bien con sockets y conexiones y esto agiliza mucho más el escaneo.
+[Ffuf](https://github.com/ffuf/ffuf) una herramienta parecida a wfuzz pero escrita en go. Go trabaja muy bien con sockets y conexiones y esto agiliza mucho más el escaneo.
 
 Instalación
 ```bash
@@ -112,6 +112,14 @@ Filtrar por códigos de estado, --mc=200, (match code)
 
 > El término **"FUZZ"** se utiliza para representar la posición en la url donde se insertarán los valores del diccionario.
 
+### Encontrar posibles servidores vulnerables con fuzzing aprovechandonos del redirect
+Practicando con ffuf he encontrado la manera de listar posibles subdominios de páginas webs que tienen brechas de seguridad en cuanto a linkear información sobre el gestor de contenido que corren por detrás. 
+```bash
+sudo ./ffuf -c -t 200 -u http://FUZZ/localhost:8099/ -w /opt/SecLists/Discovery/DNS/subdomains-top1million-110000.txt -v --mc=301
+```
+
+Con esto estamo aprovechando el redirect remporal (state code 301) que nos muestra otras páginas web. La mayoría no presentan ninguna fuga de información pero hay algunas que sí, y pueden mostrarnos información privilegiada como por ejemplo el siguiente enlace:
+- https://www.sg/localhost:8099/
 
 
 

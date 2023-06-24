@@ -1,5 +1,5 @@
 -----
-- Tags: #Linux #Fuzzing #Indirecto #Recopilación 
+- Tags: #Fuzzing 
 -----
 Podemos usar las siguientes páginas webs para recolectar información de las url de una página web.
 - [Phonebook](https://phonebook.cz/): aquí podemos recolectar rutas de una página web, además nos permite encontrar subdominios e incluso [[Formas de recolectar correos electrónicos]]. 

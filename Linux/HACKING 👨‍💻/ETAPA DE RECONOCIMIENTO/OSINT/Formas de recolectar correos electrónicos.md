@@ -14,4 +14,4 @@ Existen diversas páginas webs que nos dan un motón de información a cerca de 
 ### Relacionados
 - [[Fuzzing directo]]
 - [[Fuzzing indirecto]]
-- [[Reconocimiento por imágenes]]
+- [[Reconocimiento por imágenes y base de datos]]

@@ -26,3 +26,17 @@ UPX (Ultimate Packer for Executables) es una herramienta de compresión de ejecu
 	upx archivo.sh
 ```
 
+### Listar Procesos
+Para listar los procesos que se están ejecutando en el sistema
+```bash
+ps -faux
+```
+
+### Listar comandos que se están ejecutando en el sistema
+```bash
+ps -eo command
+```
+
+### Relacionados
+- [[INTRODUCCIÓN AL HACKING📋]]
+- [[Tareas 📋]]
