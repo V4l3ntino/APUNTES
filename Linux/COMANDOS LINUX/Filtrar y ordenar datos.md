@@ -42,6 +42,7 @@ diff archivo1.txt archivo2.txt #Muestra en rojo lo que se ha quitado y en verde 
 ```bash
 tail -n 1 # Filtrar por la última línea de texto
 tail -1 #Se puede omitir la -n y no pasa nada, hace lo mismo
+tail -f # (follow) Muestra las 10 últimas líneas y se queda en escucha de manera que si se introduce un nuevo dato se muestra
 head -n 1 # Filtar por la primera línea de texto
 head -1 # Se puede omitir -n
 awk 'NR==2' # Filtrar por la segúnda línea de texto

@@ -53,3 +53,10 @@
 	8. - [x] Enumeración de gestores de contenido Drupal
 	9. - [x] Enumeración de gesotres de contenido Magento
 	10. - [x] Apuntes en Obsidian
+5. ENUREMACIÓN DE SERVICIOS Y GESTORES DE CONTENIDO
+	1. - [x] 1
+	2. - [ ] 2 (TIPO DE SHELLS)
+	3. - [ ] 3 (METASPLOIT)
+	4. - [x] 4
+	5. - [ ] 5
+	6. - [ ] 6

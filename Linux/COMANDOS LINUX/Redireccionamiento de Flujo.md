@@ -45,5 +45,13 @@ firefox &>/dev/null & #Esto lo que hace es abrir el firefox pero como un proceso
 firefox &>/dev/null & disown #Para abrir firefox sin que cuelge de la terminal le ponemos al final un disown y ya si podrías cerrar la terminal.
 ```
 
+RESUMEN
+- STDIN (Standard Input): es el flujo de entrada estándar que permite recibir datos en un programa o comando. Se asocia  con el descriptor de archivo 0. Normalmente es el teclado, pero puede especificar que la entrada puede proceder de un puerto serie o de un archivo de disco.
+    
+- STDOUT (Standard Output): STDOUT es el flujo de salida estándar que permite enviar datos desde un programa o comando hacia un destino externo. Se asocia con el descriptor de archivo 1.
+    
+- STDERR (Standard Error): STDERR es el flujo de error estándar que se utiliza para mostrar mensajes de error y diagnóstico durante la ejecución de un programa. Se asocia  con el descriptor de archivo 2.
+
+
 -----
 Enlace a las [[Tareas 📋]], este tema se aborda desde la carpeta 3 - 4

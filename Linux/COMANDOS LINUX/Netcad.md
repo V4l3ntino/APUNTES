@@ -14,7 +14,7 @@ nc -nlvp 8080
 ```
 
 1. n: especificamos que no queremos que nos haga resolución DNS
-2. l: indicamos que vamos a ponernos en modo escucha
+2. l: (listen) indicamos que vamos a ponernos en modo escucha
 3. v: es de verbose y sirve para que a medida que se está ejecutando nos muestre la información por consola
 4. p: sirve para indicarle un número de puerto local
 
