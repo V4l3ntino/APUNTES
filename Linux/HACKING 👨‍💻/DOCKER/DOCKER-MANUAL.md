@@ -35,6 +35,7 @@ docker images -q
 ```
 
 
+## Contenedores
 ### Crear un contenedor
 Un contenedor necesita apuntar a una imagen, la imagen es el sistema operativo que quieres virtualizar. 
 Descargarse una imagen 
@@ -60,6 +61,30 @@ docker exec -it Micontenedor bash
 ```
 Con docker exec podemos indicarle al contenedor que comando queremos que nos ejecute, en este caso le estamos indicando que nos proporcione una bash.
 
+> También podemos ejecutar un contenedor directamente otorgándonos una bash
+```bash
+docker run -it --name contenedor ubuntu /bin/bash
+```
+
+Hay que tener en cuenta que si queremos ejecutar una bash nada más lanzar el contenedor tenemos que poner -it para que no lance el contenedor en segundo plano, sino que nos otorgue una bash interactiva al momento.
+
+### Crear un contenedor temporal
+```bash
+docker run -it --rm --name contenedor ubuntu /bin/bash
+```
+
+--rm: este parámetro sirve para que cuando nos salgamos del contenedor este se borre automáticamente.
+
+
+### CREAR UN CONTENEDOR PRIVILEGIADO 
+```bash
+docker run -dit --privileged --network=host --name contenedor ubuntu
+```
+
+--privileged: permite ejecutar un contenedor con privilegios extendidos, otorgándole acceso completo y sin restricciones a todos los dispositivos y recursos del sistema host. Al utilizar esta opción, se eliminan muchas de las restricciones de seguridad y aislamiento típicas de Docker.
+--network=host: permite asignar las mismas interfaces con las mismas ips de la máquina host al contenedor 
+
+
 ### Borrar contenedores
 Para borrar un contenedor podemos hacerlo proporcionando el nombre del mismo o con su identificador
 ```bash
@@ -72,6 +97,34 @@ Forzar a borrar contenedores aunque estén activos
 ```bash
 docker rm Micontenedor --force
 ```
+
+## Networks
+### Borrar interfaces de red docker
+A medida que vamos creando contenedores se van asignando nuevas interfaces y aveces puede saturar cuando hacemos un ifconfig, para borrar todas estas interfaces hacemos lo siguiente:
+```bash
+docker network ls
+docker network rm $(docker network ls -q) #Borra todas las interfaces que no sean necesarias y deja una que es la que viene por defecto
+```
+### Ver las interfaces que hay creadas en docker
+```bash
+docker network ls
+```
+
+### Inspeccionar las redes que han sido creadas y las interfaces activas
+```bash
+docker network inspect
+```
+>podemos ver más opciones poniendo simplemente docker network
+
+### MACVLAN
+Este método en Docker que se utiliza para asignar una dirección MAC a un contenedor determinado, haciendo que este aparezca como si fuera un dispositivo físico en su red.
+Para ello tenemos que crear primero una macvlan especificando la subnet de nuestra casa y el gateway
+```bash
+
+```
+
+
+## Imágenes
 ### Borrar imágenes
 Para las imágenes es lo mismo pero añadiendo una i al final.
 ```bash

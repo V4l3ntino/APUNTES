@@ -55,8 +55,8 @@
 	10. - [x] Apuntes en Obsidian
 5. ENUREMACIÓN DE SERVICIOS Y GESTORES DE CONTENIDO
 	1. - [x] 1
-	2. - [ ] 2 (TIPO DE SHELLS)
+	2. - [x] 2 (TIPO DE SHELLS)
 	3. - [ ] 3 (METASPLOIT)
-	4. - [x] 4
+	4. - [ ] 4 (SQLMAP)
 	5. - [ ] 5
 	6. - [ ] 6
