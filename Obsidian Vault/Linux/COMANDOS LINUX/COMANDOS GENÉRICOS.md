@@ -37,6 +37,11 @@ ps -faux
 ps -eo command
 ```
 
+### Copiar el contenido de un archivo a la clipboard
+```bash
+xclip -selection clipboard < archivo.txt
+```
+
 ### Relacionados
 - [[INTRODUCCIÓN AL HACKING📋]]
 - [[Tareas 📋]]

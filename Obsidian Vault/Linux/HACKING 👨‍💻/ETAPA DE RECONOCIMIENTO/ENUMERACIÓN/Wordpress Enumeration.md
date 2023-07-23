@@ -110,5 +110,5 @@ Rutas vulnerables comunes en WordPress que podrían permitir la enumeración de 
 
 ------
 ### RELACIONADOS
-- [[Herramientas]]
+- [[Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/Herramientas]]
 - [[Wordpress XMLRPC.php]]

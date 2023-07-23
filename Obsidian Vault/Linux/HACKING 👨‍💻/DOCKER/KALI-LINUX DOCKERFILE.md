@@ -15,7 +15,7 @@ RUN apt install nano -y && apt install whatweb -y && apt install net-tools -y &&
 
 RUN apt install wpscan -y && apt install sqlmap -y && apt install wifite -y && apt install ffuf -y
 
-RUN apt install macchanger -y && apt install dsniff -y
+RUN apt install macchanger -y && apt install dsniff -y && apt install exiftool -y 
 ```
 
 ### BUILD

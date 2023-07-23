@@ -61,7 +61,13 @@ si quieres buscar algo más específico pues pone man find y filtras poniendo la
 sudo find / -size 100c 2>/dev/null
 ```
 
+### Busquedas de archivos por el contenido
+Si quieres buscar un archivo según por el contenido que tenga y no por el nombre puedes hacer lo siguiente:
+```bash
+find / -type f -exec grep -l "#f0719b" {} \; 2>/dev/null
+```
 
+Esto hará una búsqueda de aquellos archivo que tengan como contenido el código hexadecimal #f0719b, '{}' esto indica que reemplaze el contenido por los nombres de los archivo encontrados y `\;` marca el final del comando `exec`.
 
 ----
 Enlace a las [[Tareas 📋]], este tema se muestra en la carpeta 20
