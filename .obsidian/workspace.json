@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ee6d90b9c7c8372d",
+        "id": "a209662ff6500067",
         "type": "tabs",
         "children": [
           {
-            "id": "f696645611743a0a",
+            "id": "b62299894eff386f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/HACKING 👨‍💻/DOCKER/KALI-LINUX DOCKERFILE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ba41b5d24662b97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/HACKING 👨‍💻/WEB PAGES.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6532e5a9fcafbc96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/OSINT/Formas de recolectar correos electrónicos.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aef4f2cbaac73b4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/Herramientas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d03d45de86e51b9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/Wordpress Enumeration.md",
+                "file": "JAVA/POO/Definición.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/HACKING 👨‍💻/WEB PAGES.md",
+                "file": "JAVA/POO/Definición.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/HACKING 👨‍💻/WEB PAGES.md",
+                "file": "JAVA/POO/Definición.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/HACKING 👨‍💻/WEB PAGES.md"
+                "file": "JAVA/POO/Definición.md"
               }
             }
           }
@@ -187,21 +138,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "0ba41b5d24662b97",
+  "active": "b62299894eff386f",
   "lastOpenFiles": [
-    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/Herramientas.md",
-    "Linux/HACKING 👨‍💻/WEB PAGES.md",
-    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/OSINT/Formas de recolectar correos electrónicos.md",
-    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/FUZZING/Fuzzing indirecto.md",
+    "JAVA/POO/Definición.md",
+    "JAVA/POO/Definición.md",
+    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/REDES/ICMP Protocol.md",
+    "JAVA/POO",
+    "JAVA",
+    "ARCHCRAFT/HERRAMIENTAS.md",
+    "ARCHCRAFT/KITTY TERMINAL/kitty.conf.md",
+    "ARCHCRAFT/KITTY TERMINAL/color.ini.md",
     "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/Wordpress Enumeration.md",
-    "Linux/HACKING 👨‍💻/DOCKER/KALI-LINUX DOCKERFILE.md"
+    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/Herramientas.md",
+    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/OSINT/Formas de recolectar correos electrónicos.md",
+    "Linux/HACKING 👨‍💻/WEB PAGES.md",
+    "Linux/HACKING 👨‍💻/DOCKER/KALI-LINUX DOCKERFILE.md",
+    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/FUZZING/Fuzzing indirecto.md"
   ]
 }
