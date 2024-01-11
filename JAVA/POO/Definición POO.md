@@ -9,10 +9,13 @@ tags:
 - Clases: es un molde o plantilla mediante la cuál podemos construir objetos. Las clases se podría asociar en base de datos como tablas.
 	- Atributos: elementos que forman una clase
 	- Constructor: es el método de la clase que sirve para inicializar los objetos, el nombre del constructor debe tener siempre el mismo nombre que el de la clase.
+	- Métodos
 
 - Objetos: serían como los registros de una tabla, los objetos de nuestro programa van a poder interactuar entre sí 
 
 - Encapsula-miento: mecanismo mediante el cual un objeto oculta parte de su estructura y/o comportamiento a los demás objetos.
+
+(Más información) --> [[1.4_Atributos_y_Métodos.pdf]]
 
 ## Estructura de una Clase
 En una clase el nombre siempre debe tener la Primera letra en mayuscula
