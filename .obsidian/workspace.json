@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5ec58f7c18e9e5a2",
+            "id": "13e128a1a60d6931",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/POO/Definición POO.md",
+                "file": "TypeScript/Tipos básicos.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "redirigir",
+                "query": "borrar interfaces",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "4057093006de42b2",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/POO/Definición POO.md",
+                "file": "TypeScript/Tipos básicos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/POO/Definición POO.md",
+                "file": "TypeScript/Tipos básicos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/POO/Definición POO.md"
+                "file": "TypeScript/Tipos básicos.md"
               }
             }
           }
@@ -138,20 +138,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo canvas": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5ec58f7c18e9e5a2",
+  "active": "13e128a1a60d6931",
   "lastOpenFiles": [
-    "JAVA/POO/Constructor POO.md",
+    "Linux/HACKING 👨‍💻/DOCKER/DOCKER-MANUAL.md",
+    "TypeScript/Tipos básicos.md",
     "JAVA/POO/Algunos métodos especiales.md",
+    "TypeScript/ANEXOS/Pasted image 20240401203559.png",
+    "TypeScript/ANEXOS",
+    "TypeScript",
+    "ANGULAR",
+    "JAVA/POO/Constructor POO.md",
     "JAVA/POO/Definición POO.md",
+    "Excalidraw/Drawing 2024-03-31 22.14.25.excalidraw.md",
+    "Excalidraw",
     "Sin título.md",
     "JAVA/PDFs/1.5_Métodos_especiales.pdf",
     "JAVA/PDFs/1.4_Atributos_y_Métodos.pdf",
@@ -171,7 +179,6 @@
     "Linux/COMANDOS LINUX/COMANDOS GENÉRICOS.md",
     "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/REDES/ICMP Protocol.md",
     "JAVA/POO",
-    "JAVA",
     "ARCHCRAFT/HERRAMIENTAS.md",
     "ARCHCRAFT/KITTY TERMINAL/kitty.conf.md",
     "ARCHCRAFT/KITTY TERMINAL/color.ini.md",
