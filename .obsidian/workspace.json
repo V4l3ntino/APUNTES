@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/Tipos básicos.md",
+                "file": "TypeScript/METODOS TIPADO.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/Tipos básicos.md",
+                "file": "TypeScript/METODOS TIPADO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/Tipos básicos.md",
+                "file": "TypeScript/METODOS TIPADO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/Tipos básicos.md"
+                "file": "TypeScript/METODOS TIPADO.md"
               }
             }
           }
@@ -149,11 +149,14 @@
   },
   "active": "13e128a1a60d6931",
   "lastOpenFiles": [
+    "TypeScript/ANEXOS/Pasted image 20240401221733.png",
+    "TypeScript/ANEXOS/Pasted image 20240401221648.png",
+    "TypeScript/ANEXOS/Pasted image 20240401221836.png",
+    "TypeScript/METODOS TIPADO.md",
+    "TypeScript/ANEXOS",
     "Linux/HACKING 👨‍💻/DOCKER/DOCKER-MANUAL.md",
-    "TypeScript/Tipos básicos.md",
     "JAVA/POO/Algunos métodos especiales.md",
     "TypeScript/ANEXOS/Pasted image 20240401203559.png",
-    "TypeScript/ANEXOS",
     "TypeScript",
     "ANGULAR",
     "JAVA/POO/Constructor POO.md",
