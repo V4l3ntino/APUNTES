@@ -74,3 +74,43 @@ hometown: string | undefined;
 
 > hometown: string | undefined; Ahora indicamos que hometown puede ser de tipo string o puede no tener nada, pero es relevante, es decir que si o si debe existir en el objeto
 > ![[Pasted image 20240401221836.png]]
+
+
+Funciones
+---
+El tipado de una función se declara después de los parámetros
+```typescript
+const addNumber = (firstParam, secondParam): number => {
+	return firstParam + secondParam;
+}
+```
+
+Los parámetros también debes ser tipados
+```typescript
+const addNumber = (firstParam: number, secondParam: number = 2): number =>{
+	return firstParam * secondParam;
+}
+```
+
+En este caso secondParam no va ser obligatorio porque su valor va ser siempre 2 pero podemos cambiarle este valor si le especificamos un nuevo número en la llamada de la función,
+ejemplo:
+```typescript
+const multiply = (first: number, second?: number, third: number = 2): number => {
+	return first + third;
+}
+const result: number = myltiply(1,0,5);
+console.log (result)
+```
+Esta función devolverá 6
+```typescript
+const multiply = (first: number, second?: number, third: number = 2): number => {
+	return first + third;
+}
+const result: number = myltiply(1);
+console.log (result)
+```
+Esta función devolverá 3
+
+
+---
+[[FUNCIONES CON OBJETOS COMO ARGUMENTOS]]

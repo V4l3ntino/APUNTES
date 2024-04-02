@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/METODOS TIPADO.md",
+                "file": "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "250175975ddc466a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4057093006de42b2",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/METODOS TIPADO.md",
+                "file": "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/METODOS TIPADO.md",
+                "file": "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/METODOS TIPADO.md"
+                "file": "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md"
               }
             }
           }
@@ -149,10 +162,11 @@
   },
   "active": "13e128a1a60d6931",
   "lastOpenFiles": [
+    "TypeScript/METODOS TIPADO.md",
+    "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
     "TypeScript/ANEXOS/Pasted image 20240401221733.png",
     "TypeScript/ANEXOS/Pasted image 20240401221648.png",
     "TypeScript/ANEXOS/Pasted image 20240401221836.png",
-    "TypeScript/METODOS TIPADO.md",
     "TypeScript/ANEXOS",
     "Linux/HACKING 👨‍💻/DOCKER/DOCKER-MANUAL.md",
     "JAVA/POO/Algunos métodos especiales.md",
