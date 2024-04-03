@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
+                "file": "TypeScript/METODOS TIPADO.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "016fb3f68d9a73f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TypeScript/INTERFACES.md",
                 "mode": "preview",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4057093006de42b2",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
+                "file": "TypeScript/INTERFACES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
+                "file": "TypeScript/INTERFACES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md"
+                "file": "TypeScript/INTERFACES.md"
               }
             }
           }
@@ -160,10 +172,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "13e128a1a60d6931",
+  "active": "016fb3f68d9a73f1",
   "lastOpenFiles": [
+    "TypeScript/DESESTRUCTURACIÓN.md",
     "TypeScript/METODOS TIPADO.md",
     "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
+    "TypeScript/INTERFACES.md",
     "TypeScript/ANEXOS/Pasted image 20240401221733.png",
     "TypeScript/ANEXOS/Pasted image 20240401221648.png",
     "TypeScript/ANEXOS/Pasted image 20240401221836.png",

@@ -29,3 +29,4 @@ healCharacter(stridder, 49)
 ```
 ---
 [[METODOS TIPADO]]
+[[INTERFACES]]

@@ -76,6 +76,10 @@ hometown: string | undefined;
 > ![[Pasted image 20240401221836.png]]
 
 
+---
+[[INTERFACES]]
+[[DESESTRUCTURACIÓN]]
+
 Funciones
 ---
 El tipado de una función se declara después de los parámetros
