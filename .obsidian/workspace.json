@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/INTERFACES.md",
+                "file": "TypeScript/DESESTRUCTURACIÓN.md",
                 "mode": "preview",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/INTERFACES.md",
+                "file": "TypeScript/DESESTRUCTURACIÓN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/INTERFACES.md",
+                "file": "TypeScript/DESESTRUCTURACIÓN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/INTERFACES.md"
+                "file": "TypeScript/DESESTRUCTURACIÓN.md"
               }
             }
           }
@@ -174,10 +174,10 @@
   },
   "active": "016fb3f68d9a73f1",
   "lastOpenFiles": [
+    "TypeScript/INTERFACES.md",
     "TypeScript/DESESTRUCTURACIÓN.md",
     "TypeScript/METODOS TIPADO.md",
     "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
-    "TypeScript/INTERFACES.md",
     "TypeScript/ANEXOS/Pasted image 20240401221733.png",
     "TypeScript/ANEXOS/Pasted image 20240401221648.png",
     "TypeScript/ANEXOS/Pasted image 20240401221836.png",

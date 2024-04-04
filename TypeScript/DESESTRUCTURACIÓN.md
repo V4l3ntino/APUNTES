@@ -1,4 +1,9 @@
 La `desestructuración` es el método que se utiliza para poder sacar individualmente los atributos de un objeto y guardarlos en otra variable
+
+Objetos
+--
+
+
 ```typescript
 const audioPlayer: AudioPlayer = {
 	audioVolume: 90,
@@ -42,4 +47,41 @@ const author = audioPlayer.details.author
 ```
 
 Pero para evitar esto y ahorrar más tiempo se hace de la primera forma
+
+
+
+Arrays
+--
+
+Según la posición en la que nombremos la variable obtendrá un valor u otro, ejemplo:
+```typescript
+const dbz: string[] = ['Goku', 'Vegeta', 'Trunk'];
+const [ p1, p2, p3] = dbz
+
+console.log(p1); // MUESTRA 'Goku'
+console.log(p2); // MUESTRA 'Vegeta'
+console.log(p3); // MUESTRA 'Trunks'
+```
+
+También si no necesitamos las dos primeras variables podemos saltar de posición poniendo simplemente una coma:
+
+```typescript
+const [ , , trunks] = dbz
+
+console.log(trunks) // MUESTRA 'Trunks'
+```
+
+La otra forma menos eficiente sería con el método tradicional, creamos una variable y la igualamos al índice del array:
+
+```typescript
+const trunks = dbz[2]
+```
+
+Podemos definir una condición de tipo `or` indicando que si el índice no existe muestre un mensaje distinto
+
+```typescript
+const trunks = dbz[5] || 'No existe el personaje'
+
+const [ , , , , , trunks] = dbz || 'No existe el personaje'
+```
 
