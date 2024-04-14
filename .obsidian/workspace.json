@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2c2aec48a4a919ed",
+        "id": "7a6126beb715dead",
         "type": "tabs",
         "children": [
           {
-            "id": "13e128a1a60d6931",
+            "id": "18273989a48bfbb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,31 +20,31 @@
             }
           },
           {
-            "id": "016fb3f68d9a73f1",
+            "id": "5ee6245a6b610623",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/DESESTRUCTURACIÓN.md",
+                "file": "TypeScript/IMPORTAR - EXPORTAR.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "250175975ddc466a",
+            "id": "b21816c082aee878",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
+                "file": "TypeScript/POO.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "borrar interfaces",
+                "query": "diferencias",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/DESESTRUCTURACIÓN.md",
+                "file": "TypeScript/POO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/DESESTRUCTURACIÓN.md",
+                "file": "TypeScript/POO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/DESESTRUCTURACIÓN.md"
+                "file": "TypeScript/POO.md"
               }
             }
           }
@@ -172,12 +172,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "016fb3f68d9a73f1",
+  "active": "b21816c082aee878",
   "lastOpenFiles": [
-    "TypeScript/INTERFACES.md",
-    "TypeScript/DESESTRUCTURACIÓN.md",
+    "TypeScript/IMPORTAR - EXPORTAR.md",
+    "TypeScript/POO.md",
     "TypeScript/METODOS TIPADO.md",
+    "TypeScript/DESESTRUCTURACIÓN.md",
+    "TypeScript/INTERFACES.md",
     "TypeScript/FUNCIONES CON OBJETOS COMO ARGUMENTOS.md",
+    "Linux/COMANDOS LINUX/Filtrar y ordenar datos.md",
     "TypeScript/ANEXOS/Pasted image 20240401221733.png",
     "TypeScript/ANEXOS/Pasted image 20240401221648.png",
     "TypeScript/ANEXOS/Pasted image 20240401221836.png",
@@ -216,8 +219,6 @@
     "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/Wordpress Enumeration.md",
     "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/Herramientas.md",
     "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/OSINT/Formas de recolectar correos electrónicos.md",
-    "Linux/HACKING 👨‍💻/WEB PAGES.md",
-    "Linux/HACKING 👨‍💻/DOCKER/KALI-LINUX DOCKERFILE.md",
-    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/FUZZING/Fuzzing indirecto.md"
+    "Linux/HACKING 👨‍💻/WEB PAGES.md"
   ]
 }

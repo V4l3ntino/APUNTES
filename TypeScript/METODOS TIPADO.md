@@ -96,6 +96,41 @@ const addNumber = (firstParam: number, secondParam: number = 2): number =>{
 }
 ```
 
+> Se puede dar la ocasión que cuando el nombre de la variable es igual al nombre del tipo se resuma en una sola palabra, como en el siguiente ejemplo:
+
+```typescript
+interface TaxCalculationOptions {
+	tax: number;
+	products: Product[];
+}
+
+  
+
+function taxCalculation( options: TaxCalculationOptions): number[]{
+	let total = 0;
+	options.products.forEach(product => {
+	total += product.price
+	});
+	
+	return [total, total * options.tax];
+
+}
+
+const shoppingCart = [phone, tablet];
+const tax = 0.15;
+
+
+const result = taxCalculation({
+	products: shoppingCart,
+	//tax: tax | ESTA SERÍA LA FORMA NORMAL
+	tax // Y ESTA LA FORMA RESUMIDA
+});
+
+```
+
+
+
+
 En este caso secondParam no va ser obligatorio porque su valor va ser siempre 2 pero podemos cambiarle este valor si le especificamos un nuevo número en la llamada de la función,
 ejemplo:
 ```typescript

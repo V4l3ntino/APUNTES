@@ -26,7 +26,7 @@ console.log(author); // RESULTADO 'Ed Sheeran'
 La lógica en la sintaxis es que cuando pones el mismo nombre que en el atributo se creará una nueva variable con los datos de ese mismo atributo, si por el contrario quisiéramos cambiarle el nombre a la variable pero que contenga los mismos datos del atributo se especificaría de la siguiente manera:
 
 ```typescript
-const { song: cancion } audioPlayer;
+const { song: cancion } = audioPlayer;
 
 console.log(cancion); // RESULTADO 'Mess'
 ```
