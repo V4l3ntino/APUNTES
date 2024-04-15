@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7a6126beb715dead",
+        "id": "1a1144791f2f271c",
         "type": "tabs",
         "children": [
           {
-            "id": "18273989a48bfbb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TypeScript/METODOS TIPADO.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ee6245a6b610623",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TypeScript/IMPORTAR - EXPORTAR.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b21816c082aee878",
+            "id": "9b25498613f47de5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,10 +147,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b21816c082aee878",
+  "active": "9b25498613f47de5",
   "lastOpenFiles": [
     "TypeScript/IMPORTAR - EXPORTAR.md",
     "TypeScript/POO.md",
+    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/FUZZING/Fuzzing directo.md",
+    "Cursos/Tareas 📋.md",
+    "Cursos/INTRODUCCIÓN AL HACKING📋.md",
+    "Linux/HACKING 👨‍💻/WEB PAGES.md",
     "TypeScript/METODOS TIPADO.md",
     "TypeScript/DESESTRUCTURACIÓN.md",
     "TypeScript/INTERFACES.md",
@@ -215,10 +194,6 @@
     "JAVA/POO",
     "ARCHCRAFT/HERRAMIENTAS.md",
     "ARCHCRAFT/KITTY TERMINAL/kitty.conf.md",
-    "ARCHCRAFT/KITTY TERMINAL/color.ini.md",
-    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/Wordpress Enumeration.md",
-    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/Herramientas.md",
-    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/OSINT/Formas de recolectar correos electrónicos.md",
-    "Linux/HACKING 👨‍💻/WEB PAGES.md"
+    "ARCHCRAFT/KITTY TERMINAL/color.ini.md"
   ]
 }
