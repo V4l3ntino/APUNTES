@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/POO.md",
+                "file": "TypeScript/IMPORTAR - EXPORTAR.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0aa11c7fe48f539",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TypeScript/NOT NULL ASSERTION OPERATOR.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/POO.md",
+                "file": "TypeScript/NOT NULL ASSERTION OPERATOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/POO.md",
+                "file": "TypeScript/NOT NULL ASSERTION OPERATOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/POO.md"
+                "file": "TypeScript/NOT NULL ASSERTION OPERATOR.md"
               }
             }
           }
@@ -147,9 +160,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9b25498613f47de5",
+  "active": "f0aa11c7fe48f539",
   "lastOpenFiles": [
     "TypeScript/IMPORTAR - EXPORTAR.md",
+    "TypeScript/NOT NULL ASSERTION OPERATOR.md",
     "TypeScript/POO.md",
     "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/FUZZING/Fuzzing directo.md",
     "Cursos/Tareas 📋.md",
@@ -193,7 +207,6 @@
     "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/REDES/ICMP Protocol.md",
     "JAVA/POO",
     "ARCHCRAFT/HERRAMIENTAS.md",
-    "ARCHCRAFT/KITTY TERMINAL/kitty.conf.md",
-    "ARCHCRAFT/KITTY TERMINAL/color.ini.md"
+    "ARCHCRAFT/KITTY TERMINAL/kitty.conf.md"
   ]
 }
