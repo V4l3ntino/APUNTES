@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Ejecución asincrona.md",
-                "mode": "preview",
+                "file": "python/Expresiones Regulares.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Ejecución asincrona.md",
+                "file": "python/Expresiones Regulares.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Ejecución asincrona.md",
+                "file": "python/Expresiones Regulares.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Ejecución asincrona.md"
+                "file": "python/Expresiones Regulares.md"
               }
             }
           }
@@ -174,8 +174,9 @@
   },
   "active": "841fc71bedc38446",
   "lastOpenFiles": [
-    "python/Fechas.md",
     "python/Ejecución asincrona.md",
+    "python/Expresiones Regulares.md",
+    "python/Fechas.md",
     "Linux/COMANDOS LINUX/Redireccionamiento de Flujo.md",
     "python",
     "Linux/HACKING 👨‍💻/DOCKER/DOCKER-MANUAL.md",
@@ -218,7 +219,6 @@
     "Linux/COMANDOS LINUX/Codificiación y Decodificación.md",
     "JAVA/PDFs/1.2_Mi_primera_clase.pdf",
     "JAVA/PDFs",
-    "Linux/COMANDOS LINUX/COMANDOS GENÉRICOS.md",
-    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/REDES/ICMP Protocol.md"
+    "Linux/COMANDOS LINUX/COMANDOS GENÉRICOS.md"
   ]
 }
