@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Fechas.md",
+                "file": "python/Ejecución asincrona.md",
                 "mode": "preview",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Fechas.md",
+                "file": "python/Ejecución asincrona.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Fechas.md",
+                "file": "python/Ejecución asincrona.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Fechas.md"
+                "file": "python/Ejecución asincrona.md"
               }
             }
           }
@@ -174,8 +174,9 @@
   },
   "active": "841fc71bedc38446",
   "lastOpenFiles": [
-    "Linux/COMANDOS LINUX/Redireccionamiento de Flujo.md",
     "python/Fechas.md",
+    "python/Ejecución asincrona.md",
+    "Linux/COMANDOS LINUX/Redireccionamiento de Flujo.md",
     "python",
     "Linux/HACKING 👨‍💻/DOCKER/DOCKER-MANUAL.md",
     "JAVA/POO/Constructor POO.md",
@@ -218,7 +219,6 @@
     "JAVA/PDFs/1.2_Mi_primera_clase.pdf",
     "JAVA/PDFs",
     "Linux/COMANDOS LINUX/COMANDOS GENÉRICOS.md",
-    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/REDES/ICMP Protocol.md",
-    "ARCHCRAFT/HERRAMIENTAS.md"
+    "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/REDES/ICMP Protocol.md"
   ]
 }
