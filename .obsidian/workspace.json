@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/NOT NULL ASSERTION OPERATOR.md",
+                "file": "Linux/COMANDOS LINUX/Redireccionamiento de Flujo.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "841fc71bedc38446",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python/Fechas.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "diferencias",
+                "query": "abrir",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/NOT NULL ASSERTION OPERATOR.md",
+                "file": "python/Fechas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/NOT NULL ASSERTION OPERATOR.md",
+                "file": "python/Fechas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/NOT NULL ASSERTION OPERATOR.md"
+                "file": "python/Fechas.md"
               }
             }
           }
@@ -160,10 +172,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0aa11c7fe48f539",
+  "active": "841fc71bedc38446",
   "lastOpenFiles": [
-    "TypeScript/IMPORTAR - EXPORTAR.md",
+    "Linux/COMANDOS LINUX/Redireccionamiento de Flujo.md",
+    "python/Fechas.md",
+    "python",
+    "Linux/HACKING 👨‍💻/DOCKER/DOCKER-MANUAL.md",
+    "JAVA/POO/Constructor POO.md",
     "TypeScript/NOT NULL ASSERTION OPERATOR.md",
+    "TypeScript/IMPORTAR - EXPORTAR.md",
     "TypeScript/POO.md",
     "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/ENUMERACIÓN/FUZZING/Fuzzing directo.md",
     "Cursos/Tareas 📋.md",
@@ -178,19 +195,16 @@
     "TypeScript/ANEXOS/Pasted image 20240401221648.png",
     "TypeScript/ANEXOS/Pasted image 20240401221836.png",
     "TypeScript/ANEXOS",
-    "Linux/HACKING 👨‍💻/DOCKER/DOCKER-MANUAL.md",
     "JAVA/POO/Algunos métodos especiales.md",
     "TypeScript/ANEXOS/Pasted image 20240401203559.png",
     "TypeScript",
     "ANGULAR",
-    "JAVA/POO/Constructor POO.md",
     "JAVA/POO/Definición POO.md",
     "Excalidraw/Drawing 2024-03-31 22.14.25.excalidraw.md",
     "Excalidraw",
     "Sin título.md",
     "JAVA/PDFs/1.5_Métodos_especiales.pdf",
     "JAVA/PDFs/1.4_Atributos_y_Métodos.pdf",
-    "Linux/COMANDOS LINUX/Redireccionamiento de Flujo.md",
     "Linux/COMANDOS LINUX/Crontab Tareas programadas.md",
     "JAVA/POO/ANEXOS/Pasted image 20231229153516.png",
     "JAVA/POO/ANEXOS/Pasted image 20231229153216.png",
@@ -205,8 +219,6 @@
     "JAVA/PDFs",
     "Linux/COMANDOS LINUX/COMANDOS GENÉRICOS.md",
     "Linux/HACKING 👨‍💻/ETAPA DE RECONOCIMIENTO/REDES/ICMP Protocol.md",
-    "JAVA/POO",
-    "ARCHCRAFT/HERRAMIENTAS.md",
-    "ARCHCRAFT/KITTY TERMINAL/kitty.conf.md"
+    "ARCHCRAFT/HERRAMIENTAS.md"
   ]
 }
